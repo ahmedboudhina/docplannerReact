@@ -1,0 +1,101 @@
+/*navbar*/
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+.items {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu li {
+  color: #ababab;
+  list-style: none;
+}
+
+.dropdownMenu {
+  visibility: hidden;
+}
+.menu:hover .dropdownMenu {
+  visibility: visible;
+}
+.menu:hover li {
+  color: #00b39b;
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+/*paragraph*/
+.logo {
+  width: 250px;
+  height: 50px;
+}
+.Smalllogo {
+  margin-top: 15%;
+  margin-left: 49%;
+}
+.title {
+  color: #00bfa5;
+  display: flex;
+  justify-content: center;
+}
+.Twopara {
+  display: flex;
+  color: grey;
+}
+
+.parag {
+  margin: 3% 10%;
+  line-height: 1.75;
+  font-weight: 400;
+}
+.Twocart {
+  display: flex;
+
+  overflow: hidden;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.mainCart {
+  margin: 2%;
+  overflow: hidden;
+}
+
+.mainCart p {
+  color: white;
+}
+.mainCart h3 {
+  color: white;
+}
+.mainCart img {
+  display: flex;
+  padding-left: 40%;
+  width: 70%;
+}
+/*footer*/
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer2 {
+  display: flex;
+  justify-content: center;
+  color: grey;
+}
+
+.footer3 {
+  margin-top: 1%;
+  color: aqua;
+}
+.footer4 {
+  color: grey;
+  display: flex;
+  justify-content: center;
+}
+.footer5 {
+  color: grey;
+  display: flex;
+  justify-content: center;
+}

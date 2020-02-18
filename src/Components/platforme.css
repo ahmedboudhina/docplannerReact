@@ -1,0 +1,41 @@
+.plat {
+  display: flex;
+  background-color: #daf7f6;
+}
+.platLeft {
+  margin: 2% 2%;
+}
+.platRight {
+  margin-right: 10%;
+  margin-left: 5%;
+  margin-top: 2%;
+  background-color: white;
+  width: 250px;
+  height: 300px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: #00bfa5;
+}
+.title2 {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  color: #00bfa5;
+}
+.title3 {
+  display: flex;
+  justify-content: center;
+  margin: 0% 30%;
+  text-align: center;
+  color: gray;
+}
+.image{
+  justify-content: center;
+}

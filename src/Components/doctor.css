@@ -1,0 +1,8 @@
+.doctorLink {
+    display: flex;
+    color: #00bfa5;
+  }
+  .doclogo {
+    display: flex;
+    flex-wrap: wrap;
+  }
